@@ -42,6 +42,39 @@
 
 
 ## Completed Challenges
+- ## 8kyu Complete
+
+- ## 7kyu Complete
+
+- ## 6kyu Complete
+
+- ## 5kyu Complete
+
+- ## 4kyu Complete
+
+- ## 3kyu Complete
+
+- ## 2kyu Complete
+
+- ## 1kyu Complete
+
+
+## Ongoing Challenges
+- ## 8kyu Ongoing
+
+- ## 7kyu Ongoing
+
+- ## 6kyu Ongoing
+
+- ## 5kyu Ongoing
+
+- ## 4kyu Ongoing
+
+- ## 3kyu Ongoing
+
+- ## 2kyu Ongoing
+
+- ## 1kyu Ongoing
 
 
 
