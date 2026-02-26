@@ -7,6 +7,7 @@
 # Navigations
 **Status Update:**
 - [Completed Challenges](#completed-challenges)
+
     **Challenges Level**
     - [8kyu](#8kyu-complete)
     - [7kyu](#7kyu-complete)
@@ -18,6 +19,7 @@
     - [1kyu](#1kyu-complete)
 
 - [Ongoing Challenges](#ongoing-challenges)
+
     **Challenges Level**
     - [8kyu](#8kyu-ongoing)
     - [7kyu](#7kyu-ongoing)
@@ -40,5 +42,6 @@
 
 
 ## Completed Challenges
+
 
 
