@@ -1,8 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fiveKyu"
+	"fmt"
+)
 
 
 func main() {
-	fmt.Println("I am HIM")
+	test1 := "Hello"
+	test2 := "Emmanuel"
+	test3 := "dobabeedoo"
+	fmt.Println(fiveKyu.Fnrc(test3))
 }

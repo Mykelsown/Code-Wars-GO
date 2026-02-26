@@ -1,5 +1,6 @@
 package fiveKyu
 
-func Fnrc() {
+func Fnrc(str string) string{
+	
 
 }
