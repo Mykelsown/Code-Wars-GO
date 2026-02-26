@@ -1,0 +1,5 @@
+package fiveKyu
+
+func Fnrc() {
+
+}
