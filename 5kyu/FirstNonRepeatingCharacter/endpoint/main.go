@@ -9,6 +9,8 @@ import (
 func main() {
 	test1 := "Hello"
 	test2 := "Emmanuel"
-	test3 := "dobabeedoo"
-	fmt.Println(fiveKyu.Fnrc(test3))
+	test3 := "d🦊obabeedoo"
+	fmt.Println(fiveKyu.FirstNonRepeating(test3))
+	fmt.Println(fiveKyu.FirstNonRepeating(test2))
+	fmt.Println(fiveKyu.FirstNonRepeating(test1))
 }
