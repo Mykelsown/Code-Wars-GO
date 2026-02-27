@@ -33,3 +33,38 @@ Note: despite its name in some languages, your function should handle any Unicod
 - *Step-5:* If all the values in the map isn't false, return empty string.
 
 
+## CODE I SUBMITTED TO MY CODE WARS
+This below is the code i used in my code wars, but that is AI logic and AI generated. I was having issues with implementing my logic with code, so i had to use AI implementation, but i was later able to get my logic working in code.
+
+```go
+    func Fnrc(str string) map[string]bool {
+
+        // Convert to lowercase
+        result := []rune(str)
+        for i, r := range result {
+            if r >= 'A' && r <= 'Z' {
+                result[i] = r + ('a' - 'A')
+            }
+        }
+        lowerCaseStr := string(result)
+
+        // Map to track duplicates
+        elementIsDuplicate := make(map[string]bool)
+
+        for i, val1 := range lowerCaseStr {
+
+            isDuplicate := false // assume not duplicate
+
+            for j, val2 := range lowerCaseStr {
+                if i != j && val1 == val2 {
+                    isDuplicate = true
+                    break // no need to continue checking
+                }
+            }
+
+            elementIsDuplicate[string(val1)] = isDuplicate
+        }
+
+        return elementIsDuplicate
+    }
+```
