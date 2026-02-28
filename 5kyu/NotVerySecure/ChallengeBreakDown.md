@@ -18,7 +18,7 @@ No whitespaces / underscore
 
 - *Step-1:* check for empty string. That is, IF the length of the string is LESS THAN 1, the input isn't valid.
 
-- *Step-2:* create a for range loop, so as to get the characters in the string individually as a rune for match up of the ASCII. 
+- *Step-2:* create a for range loop, so as to get the characters in the string individually as a rune for match up of the ASCII.
 
 - *Step-3:* Inside of the loop, then i will check with a condition if the characters in the string are matching the ASCII standard alphanumeric value, if YES, then the function returns true, if NO, it will return false.
 
