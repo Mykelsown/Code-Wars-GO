@@ -7,11 +7,13 @@ I noticed that taking time to actually do this would help to set focus on a part
 ## **Question:** 
 
 **Introduction**
-    Snakes and Ladders is an ancient Indian board game regarded today as a worldwide classic. It is played by two or more players on a game board with numbered, gridded squares. A number of "ladders" and "snakes" are pictured on the board, each connecting two specific squares. (Source: Wikipedia)
+
+Snakes and Ladders is an ancient Indian board game regarded today as a worldwide classic. It is played by two or more players on a game board with numbered, gridded squares. A number of "ladders" and "snakes" are pictured on the board, each connecting two specific squares. (Source: Wikipedia)
 
 
 **Task**
-    Your task is to create a simple class called SnakesLadders. The test cases will call the method play(die1, die2) independently of the state of the game or the player turn. The arguments die1 and die2 are the dice thrown in a turn and are both integers between 1 and 6. The player will move by the sum of die1 and die2.
+
+Your task is to create a simple class called SnakesLadders. The test cases will call the method play(die1, die2) independently of the state of the game or the player turn. The arguments die1 and die2 are the dice thrown in a turn and are both integers between 1 and 6. The player will move by the sum of die1 and die2.
 
 **The Board**
 
