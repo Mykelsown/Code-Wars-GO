@@ -43,7 +43,11 @@ Your task is to create a simple class called SnakesLadders. The test cases will 
     - map of player 2 details
     - player 1 turn; either true or false, will determine who to play. But player 1 should always start from true in every new game
     - dice: a slice of die1 and die2 value
-    - winner; this is going to be the name of the winner i.e player 1 or player 2
+    - winner; this is going to be the name of the winner i.e player 1 or player 2*
+*Informations each players map will conatain*
+    - name
+    - The current square position
+    - 
 
 - *Step-2:* 
 

@@ -14,4 +14,6 @@ func (sl *SnakesLadders) NewGame() {
 // Player that dice is for should automatically be determined based on rules
 func (sl *SnakesLadders) Play(die1, die2 int) string {
   // your code here
+
+  return ""
 }
