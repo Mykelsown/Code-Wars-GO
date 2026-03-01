@@ -14,7 +14,8 @@ I noticed that taking time to actually do this would help to set focus on a part
     Your task is to create a simple class called SnakesLadders. The test cases will call the method play(die1, die2) independently of the state of the game or the player turn. The arguments die1 and die2 are the dice thrown in a turn and are both integers between 1 and 6. The player will move by the sum of die1 and die2.
 
 **The Board**
-    <img src="snakesandladdersboard.jpg">
+
+<img src="snakesandladdersboard.jpg">
 
 **Rules**
 - There are two players, and both start off the board on square 0.
