@@ -37,7 +37,13 @@ Your task is to create a simple class called SnakesLadders. The test cases will 
 
 ## **Breaking Down:** 
 
-- *Step-1:* 
+- **Step-1:** *Things i will be storing*. I will create a struct to store some informations, edit as the game progressess and also restart back to default as for a new game.
+*Informations the struct will contain:*
+    - map of player 1 details
+    - map of player 2 details
+    - player 1 turn; either true or false, will determine who to play. But player 1 should always start from true in every new game
+    - dice: a slice of die1 and die2 value
+    - winner; this is going to be the name of the winner i.e player 1 or player 2
 
 - *Step-2:* 
 
