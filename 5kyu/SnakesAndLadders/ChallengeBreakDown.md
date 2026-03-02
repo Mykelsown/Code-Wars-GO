@@ -43,12 +43,17 @@ Your task is to create a simple class called SnakesLadders. The test cases will 
     - map of player 2 details
     - player 1 turn; either true or false, will determine who to play. But player 1 should always start from true in every new game
     - dice: a slice of die1 and die2 value
-    - winner; this is going to be the name of the winner i.e player 1 or player 2*
+    - winner; this is going to be the name of the winner i.e player 1 or player 2
+    - The squares in which each players should drop; a slice of square of snakes
+    - The square where each players should be promoted; a slice of ladders
 *Informations each players map will conatain*
     - name
     - The current square position
-    - 
 
-- *Step-2:* 
+- *Step-2:* create a condition that will start the game with player 1 as the first person to take the turn.
 
-- *Step-3:* 
+- *Step-3:* IF player plays a certain number from the dice roll, the number should be added to the current square position on the players map, which is initally zero.
+
+- *step-4:* Check for IF a player's die1 and die2, both show the same number. IF they show the same num, the player turn should still remain true i.e if player1 plays 3 on die1 and also 3 on die2, then they have the previledge to play again
+
+- *Step-5:* I will check for if player get to any square of promotion or demotion, so as to add it to their current square position.
