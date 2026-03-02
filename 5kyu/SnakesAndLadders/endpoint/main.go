@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fiveKyu"
+	"fmt"
+)
 
 func main() {
-	fmt.Println()
+	fmt.Println(fiveKyu.SnakesLadders(1, 1))
 }
