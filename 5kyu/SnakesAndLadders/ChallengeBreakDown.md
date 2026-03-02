@@ -57,3 +57,13 @@ Your task is to create a simple class called SnakesLadders. The test cases will 
 - *step-4:* Check for IF a player's die1 and die2, both show the same number. IF they show the same num, the player turn should still remain true i.e if player1 plays 3 on die1 and also 3 on die2, then they have the previledge to play again
 
 - *Step-5:* I will check for if player get to any square of promotion or demotion, so as to add it to their current square position.
+
+- *Step-6:* Check for the bounce rule. If a player's new position exceeds 100, calculate the overflow and bounce back. E.g., on square 98, rolls 5 → goes to 100 (2 moves), then bounces back 3 more → lands on 97.
+
+- *Step-7:* Check for a winner. If after all movements (ladders/snakes/bounces) the player is exactly on square 100, set the winner field and return "Player n Wins!".
+
+- *Step-8:* Check for "Game over!" at the very start of every play() call — if a winner already exists, immediately return "Game over!".
+
+- *Step-9:* Switch turns. If the dice were NOT doubles, flip player1Turn to give the other player their go. If doubles, keep the same player's turn.
+
+- *Step-10:* Return the result string "Player n is on square x" for a non-winning move.
